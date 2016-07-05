@@ -30,6 +30,8 @@ Improved:
 -Delete Line will now remember what column your caret is in
 -Most instances (let me know if it doesn't and what causes it) of the edited indicators in the line "should" be a lot better.
 -When deleting text sometimes it would delete a )}>'" (in some cases it still will happen)
+Added: Suggested by Joe Glines
+-Automatically display duplicate words
 1.002.37
 Added:
 -Tracked Nodes: Fold, Selection, and Scroll positions
