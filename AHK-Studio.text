@@ -32,6 +32,7 @@ Improved:
 -When deleting text sometimes it would delete a )}>'" (in some cases it still will happen)
 Added: Suggested by Joe Glines
 -Automatically display duplicate words
+-Right Click Code: Kill Current Script
 1.002.37
 Added:
 -Tracked Nodes: Fold, Selection, and Scroll positions
