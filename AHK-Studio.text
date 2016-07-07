@@ -34,6 +34,7 @@ Added: Suggested by Joe Glines
 -Automatically display duplicate words
 -Right Click Code: Kill Current Script
 -Fixed: Include files in the A_AhkPath\lib
+-Hide Tray Icon
 1.002.37
 Added:
 -Tracked Nodes: Fold, Selection, and Scroll positions
