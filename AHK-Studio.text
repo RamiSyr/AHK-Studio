@@ -36,6 +36,8 @@ Added: Suggested by Joe Glines
 -Right Click Code: Kill Current Script
 -Fixed: Include files in the A_AhkPath\lib
 -Hide Tray Icon
+Added: Suggested by evilC
+-Jump To Matching Brace
 1.002.37
 Added:
 -Tracked Nodes: Fold, Selection, and Scroll positions
