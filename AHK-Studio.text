@@ -1,6 +1,7 @@
 1.002.38
 Changed:
 -Debugging: A lot more useful
+--Debugging is now even better than the last time
 -File Scanning:
 --It is done when you first open a script like normal but now as you edit lines it will scan those lines
 -Code Explorer: Along with the new file scanning system it will also update in near real time (as you change lines or a few other things)
