@@ -1,6 +1,8 @@
 1.002.38
 Added: Requested by evilC
--Select_Current Debug Line
+-Select Current Debug Line
+-Global Debug Hotkeys
+-Disable Focus Studio On Debug Breakpoint
 Changed:
 -Debugging: A lot more useful
 --Debugging is now even better than the last time Thanks evilC for the QA help
