@@ -3,6 +3,8 @@ Added: Requested by evilC
 -Select Current Debug Line
 -Global Debug Hotkeys
 -Disable Focus Studio On Debug Breakpoint
+Fixed: Based off of some example code by evilC
+-Classes that extend other classes were not handled correctly
 Changed:
 -Debugging: A lot more useful
 --Debugging is now even better than the last time Thanks evilC for the QA help
