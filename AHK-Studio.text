@@ -34,6 +34,8 @@ Fixed: Reported by Henrik Jensen
 -SciLexer.dll not working properly without a direct link to the dll
 Fixed: Reported by Run1e
 -Dragging the window to the top of the screen to resize was really messing with the positions of the controls
+-Made an acceptable file extension list so you can not accidently open a media file
+--Manage File Types
 Fixed: Reported by Huckleberry
 -Alt+F4 closing Studio was not saving position data
 Added: Suggested by Joe Glines
