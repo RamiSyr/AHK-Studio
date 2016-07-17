@@ -8,6 +8,7 @@ Fixed: Based off of some example code by evilC
 Changed:
 -Debugging: A lot more useful
 --Debugging is now even better than the last time Thanks evilC for the QA help
+---If you have an exe in the main AHK-Studio folder it will debug using that version rather than the one that is installed
 -File Scanning:
 --It is done when you first open a script like normal but now as you edit lines it will scan those lines
 -Code Explorer: Along with the new file scanning system it will also update in near real time (as you change lines or a few other things)
