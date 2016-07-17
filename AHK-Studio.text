@@ -1,5 +1,7 @@
 1.002.38
 Added: Requested by evilC
+-Visual difference when debugging
+--The caret will change to a width of 3 and will turn red while debugging is active and return to your chosen color/width afterward
 -Select Current Debug Line
 -Global Debug Hotkeys
 -Disable Focus Studio On Debug Breakpoint
