@@ -1,4 +1,13 @@
 1.002.38
+Fixed: Reported by lexikos
+-DPIScale was off for all of the child windows
+-Error on the Edit Toolbar window dealing with colors
+-When you choose File/Save on an untitled document it would ask you if you want to save it even if you did not edit the file
+-Closing a file when there are only 2 open was causing the main edit window to keep the text of the file that was closed
+-Saving a modified Untitled.ahk was causing a copy of the Untitled.ahk file to be saved in the main Studio directory
+-When opening a file and there is only an Untitled file it will close the untitled file
+-When you cancel a save of an Untitled item on Exit, it will not exit the program
+-When saving an Untitled file, it "should" now close the Untitled item
 Added: Requested by evilC
 -Visual difference when debugging
 --The caret will change to a width of 3 and will turn red while debugging is active and return to your chosen color/width afterward
@@ -30,6 +39,7 @@ Fixed:
 -Fuzzy Search: When searching for files using the . at the end of the filename will give it a higher score
 -Remove Control no longer needs matching borders
 -Jump To First Available: Added #Include <file> and cleaned up anything that wasn't working (for the most part)
+-Just changing the case of a word in the text was not updating the file correctly
 Fixed: Reported by Henrik Jensen
 -SciLexer.dll not working properly without a direct link to the dll
 Fixed: Reported by Run1e
