@@ -8,6 +8,8 @@ Fixed: Reported by lexikos
 -When opening a file and there is only an Untitled file it will close the untitled file
 -When you cancel a save of an Untitled item on Exit, it will not exit the program
 -When saving an Untitled file, it "should" now close the Untitled item
+-Toolbars
+--Re-Wrote the code and about 70% working.  Some small issues left
 Added: Requested by evilC
 -Visual difference when debugging
 --The caret will change to a width of 3 and will turn red while debugging is active and return to your chosen color/width afterward
