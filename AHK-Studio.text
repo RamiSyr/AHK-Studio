@@ -1,5 +1,8 @@
 1.002.38
 Fixed: Reported by lexikos
+-Resizing handles were showing E/W when they should have been showing N/S
+-Moving any scrollbar was causing the resize handles to stop working
+-Overlap of some controls on resize
 -DPIScale was off for all of the child windows
 -Error on the Edit Toolbar window dealing with colors
 -When you choose File/Save on an untitled document it would ask you if you want to save it even if you did not edit the file
