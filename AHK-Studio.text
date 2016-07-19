@@ -35,6 +35,7 @@ Changed:
 -Backspace and Delete: When you do not have a selection and you delete items in/arround () it does something fun
 Fixed:
 -Context Sensitive Help
+-Command Help: If it goes to a "This page can’t be displayed", it will default to the main page
 -Select Next Duplicate and Select All when an item is selected that has duplicates
 -Removed the ' restriction for files/folders
 -when typing a word like "it's" it will only add one ' but when your caret is "it|'s" and you type a ' it will just move to the other side of the '
