@@ -1,3 +1,6 @@
+1.002.39
+Re-Added:
+-Test Plugin (Alt+T)
 1.002.38
 Fixed: Reported by lexikos
 -Resizing handles were showing E/W when they should have been showing N/S
