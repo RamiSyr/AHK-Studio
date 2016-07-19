@@ -22,6 +22,7 @@ Added: Requested by evilC
 Fixed: Based off of some example code by evilC
 -Classes that extend other classes were not handled correctly
 Changed:
+-Renamed most items that were "Disable X" to reduce confusion
 -Debugging: A lot more useful
 --Debugging is now even better than the last time Thanks evilC for the QA help
 ---If you have an exe in the main AHK-Studio folder it will debug using that version rather than the one that is installed
@@ -34,6 +35,7 @@ Changed:
 -Omni-Search: Searching by initials now works with capitolized letters in the same word (wid would find WordsInDocument)
 -Backspace and Delete: When you do not have a selection and you delete items in/arround () it does something fun
 Fixed:
+-Word Wrap wasn't staying on
 -Context Sensitive Help
 -Command Help: If it goes to a "This page can’t be displayed", it will default to the main page
 -Select Next Duplicate and Select All when an item is selected that has duplicates
