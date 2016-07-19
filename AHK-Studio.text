@@ -21,6 +21,7 @@ Added: Requested by evilC
 -Disable Focus Studio On Debug Breakpoint
 Fixed: Based off of some example code by evilC
 -Classes that extend other classes were not handled correctly
+-Using the Omni Search window while anything other than the main Scintilla control was active caused it to be destroyed
 Changed:
 -Renamed most items that were "Disable X" to reduce confusion
 -Debugging: A lot more useful
