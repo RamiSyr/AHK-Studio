@@ -8,8 +8,11 @@ Added:
 -Buttons to the Variable Browser
 -Auto Variable Browser
 -Smart Delete: Option to help you stop accidently deleting (){}<>[]""''
+-Hovering over the text of a variable in a script that is being debugged will display its current contents if it has any
 Changed:
 -When running untitled files and it encounters a runtime error it will create a debug window to show what the error is.
+Merged:
+-This is now the master
 1.002.38
 Fixed: Reported by lexikos
 -Resizing handles were showing E/W when they should have been showing N/S
