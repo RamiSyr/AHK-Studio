@@ -2,6 +2,11 @@
 Re-Added:
 -Test Plugin (Alt+T)
 -Move Selected Word Left/Right
+-Tab To Previous/Next Comma
+-Compile AHK Studio
+Added:
+-Buttons to the Variable Browser
+-Auto Variable Browser
 1.002.38
 Fixed: Reported by lexikos
 -Resizing handles were showing E/W when they should have been showing N/S
