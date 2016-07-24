@@ -1,3 +1,25 @@
+1.003.2
+Added:
+-Require Enter For Search: When you have larger files and you start to use a search string with a common letter it can take a bit of time for the highlighting to complete.  This helps a lot with that.
+Fixed: Reported by Run1e
+-Setting Studio as the Default Editor was causing an error with the variable name.
+1.003.1
+Changed:
+-Previous Scripts: Search feature only works in the filename not the entire path
+-Editing Hotkeys: You now must hit enter, or click the button to set/change the hotkey
+1.003.0
+Added:
+-Online Help: Launches the AHK Studio Wiki on Github
+-Menu Help: Dialog for brief descriptions of menu items
+-Auto Insert: Dialog for editing the {} [] '' "" etc Auto Inserts
+Changed: Sorry if this ruins things but if you have setup hotkeys you will need to change them:
+-All items with Segment have been changed to Include....I don't know why I started with Segment in the first place.
+-Breakpoints can be set and removed while debugging is active
+Fixed:
+-Edit Hotkeys: Old hotkeys were still in effect after changing them
+-Auto Expand Includes
+-Find Replace: Single replace was not working properly at all
+-OSD and the Varible Browser had the same Window Name
 1.002.39
 Re-Added:
 -Test Plugin (Alt+T)
@@ -368,3 +390,5 @@ Added: Suggested by zotune
 1.002.9
 Fixed: Reported by Driedman
 -RCM: Paste not working
+1
+
