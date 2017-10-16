@@ -4166,6 +4166,11 @@ FileCheck(file:=""){
 			x.Open(file),x.ScanFiles(),x.Show()
 			ExitApp
 	}}if((A_PtrSize=8&&A_IsCompiled="")||!A_IsUnicode){
+		if(FileExist("AutoHotkey.exe")){
+			Run,"%A_ScriptDir%\AutoHotkey.exe" "%A_ScriptName%",%A_ScriptDir%
+			ExitApp
+			return
+		}
 		SplitPath,A_AhkPath,,dir
 		if(!FileExist(correct:=dir "\AutoHotkeyU32.exe")){
 			m("Requires AutoHotkey 1.1 to run")
@@ -7163,7 +7168,7 @@ OpenHelpFile(url){
 	help.Navigate(url),WinActivate("AutoHotkey Help ahk_class HH Parent")
 	while(help.busy)
 		Sleep,10
-	if(InStr(help.document.body.OuterHtml,"This page can’t be displayed"))
+	if(InStr(help.document.body.OuterHtml,"This page can�t be displayed"))
 		help.Navigate("mk:@MSITStore:C:\Program%20Files%20(x86)\AutoHotkey\AutoHotkey.chm::/docs/AutoHotkey.htm")
 }
 Options(x:=0){
